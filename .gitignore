@@ -1,0 +1,18 @@
+# Backup files
+*.bak
+*~
+_autosave-*
+*.tmp
+
+# Lock files
+*.lck
+
+# Backup folders
+*-backups/
+
+# Rescue files
+*-rescue.lib
+*-rescue.kicad_sym
+
+# FP-Info cache
+fp-info-cache

@@ -621,6 +621,14 @@
       "version": 1
     },
     "net_format_name": "KiCad",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -637,6 +645,26 @@
     [
       "20540832-f0e7-4431-b65d-173d703fbd53",
       "Root"
+    ],
+    [
+      "888949ec-a7e5-4f53-b3a9-292a527b79aa",
+      "ADC_0-10V"
+    ],
+    [
+      "5519a56f-374b-44ed-9e36-54a91b7af6b4",
+      "ADC_4-20mA"
+    ],
+    [
+      "df0eefa7-4333-4c9f-9dbd-955f767c54dc",
+      "DAC Outputs (0-10V)"
+    ],
+    [
+      "814a5a66-b91f-48ab-b395-69c893ebe4c9",
+      "DAC Outputs (4-20mA)"
+    ],
+    [
+      "5a6fe289-25b7-4064-867f-55b5a680d4f2",
+      "Relays"
     ]
   ],
   "text_variables": {}

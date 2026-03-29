@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=1757255
+PartCategory=Connector
+PackageCategory=Other
+PinCount=3
+Version=7.1
+Released=2016-03-22 14:15:09
+Downloaded=2026-03-29 16:15:58
+3D=Y

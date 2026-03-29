@@ -10,4 +10,7 @@
   (lib (name "DAC8568ICPW")(type "KiCad")(uri "${KIPRJMOD}/libraries/DAC8568ICPW")(options "")(descr ""))
   (lib (name "OP4192")(type "KiCad")(uri "${KIPRJMOD}/libraries/OPA4192IDR/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "PC Term Block 2 Pos 45deg")(type "KiCad")(uri "${KIPRJMOD}/libraries/1862411-d/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "MSTBA 2,5 3-G-5,08 - PCB header")(type "KiCad")(uri "${KIPRJMOD}/libraries/MSTBA 2,5 3-G-5,08 - PCB header")(options "")(descr ""))
+  (lib (name "LPTA 2,512-5,0 - PCB terminal block1")(type "KiCad")(uri "${KIPRJMOD}/libraries/LPTA 2,512-5,0 - PCB terminal block1")(options "")(descr ""))
+  (lib (name "LPTA 2,5 4-5,0")(type "KiCad")(uri "${KIPRJMOD}/libraries/LPTA 2,5 4-5,0")(options "")(descr ""))
 )

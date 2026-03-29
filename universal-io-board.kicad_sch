@@ -5,31 +5,49 @@
 	(uuid "20540832-f0e7-4431-b65d-173d703fbd53")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x03_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "1757255:1757255"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
+			(property "Value" "1757255"
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "1757255"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/pcb-header-mstba-25-3-g-508-1757255?type=pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "PCB header, nominal cross section: 2.5 mm?, color: green, nominal current: 12 A, rated voltage (III/2): 320 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 3, Number of rows: 1, Number of positions per row: 3, number of connections: 3, product range: MSTBA 2,5/..-G, pitch: 5.08 mm, mounting: Wave soldering, pin layout: Linear pinning, solder pin [P]: 3.5 mm, Stecksystem: CLASSIC COMBICON, Locking: without, type of packaging: packed in cardboard"
 				(at 0 0 0)
 				(effects
 					(font
@@ -38,124 +56,92 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Height" "8.72"
+				(at 16.51 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Phoenix Contact"
+				(at 16.51 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "1757255"
+				(at 16.51 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
+			(property "Mouser Part Number" "651-1757255"
+				(at 16.51 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_Pin_1_1"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1757255?qs=uD%2FdkN7XIa0ez8xszzicKg%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "1757255"
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1757255/phoenix-contact?utm_currency=USD&region=nac"
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "1757255_1_1"
 				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
+					(start 5.08 2.54)
+					(end 15.24 -7.62)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -171,9 +157,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -189,9 +175,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2879,16 +2865,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 86.36) (xy 171.45 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b49472e-6b23-44f5-b336-c968666b0f5b")
-	)
-	(wire
-		(pts
 			(xy 168.91 29.21) (xy 171.45 29.21)
 		)
 		(stroke
@@ -3239,23 +3215,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 25.4) (xy 30.48 25.4)
+			(xy 29.21 24.13) (xy 33.02 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "766b79f7-966e-4597-8fdd-a15ed373e053")
-	)
-	(wire
-		(pts
-			(xy 170.18 81.28) (xy 171.45 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76e85ce6-0c0a-4ce2-ba48-a8fa02ec9293")
 	)
 	(wire
 		(pts
@@ -3469,7 +3435,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 27.94) (xy 30.48 27.94)
+			(xy 29.21 26.67) (xy 33.02 26.67)
 		)
 		(stroke
 			(width 0)
@@ -3539,23 +3505,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 30.48) (xy 30.48 30.48)
+			(xy 29.21 29.21) (xy 33.02 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c45d53e2-e8cb-4d0c-9da8-87715e11ee4e")
-	)
-	(wire
-		(pts
-			(xy 170.18 91.44) (xy 171.45 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7530ffc-4de5-4e29-9139-b8b51b234994")
 	)
 	(wire
 		(pts
@@ -3798,7 +3754,7 @@
 		(uuid "09b0544e-417f-44cb-a114-4fbdde5150f6")
 	)
 	(label "PE"
-		(at 30.48 30.48 0)
+		(at 33.02 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3838,7 +3794,7 @@
 		(uuid "11754a39-5621-44c4-ad3e-10d67dac7993")
 	)
 	(label "L"
-		(at 30.48 25.4 0)
+		(at 33.02 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3907,16 +3863,6 @@
 		)
 		(uuid "2faa99b7-6b9d-4279-ab24-5acd9bd3af13")
 	)
-	(label "SPI_MOSI"
-		(at 170.18 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "348ff9f3-de76-4625-a648-ad7676fa6349")
-	)
 	(label "ADC_DRDY"
 		(at 120.65 31.75 180)
 		(effects
@@ -3956,16 +3902,6 @@
 			(justify right bottom)
 		)
 		(uuid "58ea5b9e-d3af-44e0-8fb4-d7f07aabf88f")
-	)
-	(label "DAC2_CS"
-		(at 170.18 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5bc05737-de1a-4047-955e-1b6427ed2e1f")
 	)
 	(label "RST"
 		(at 25.4 92.71 180)
@@ -4138,7 +4074,7 @@
 		(uuid "884037b6-28b7-4e77-addd-55c3e6140d43")
 	)
 	(label "N"
-		(at 30.48 27.94 0)
+		(at 33.02 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4226,16 +4162,6 @@
 			(justify right bottom)
 		)
 		(uuid "af3220ab-a61c-4a58-acaf-89f7b73896e9")
-	)
-	(label "SPI_CLK"
-		(at 170.18 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b6fbd4eb-51bc-4727-b3ec-3a9ac7d291c3")
 	)
 	(label "SPI_CLK"
 		(at 120.65 43.18 180)
@@ -5129,77 +5055,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 21.59 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "368660a0-7d22-4645-8101-fe8267881206")
-		(property "Reference" "J1"
-			(at 22.225 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 22.225 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "1715734:PHOENIX_1715734"
-			(at 21.59 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "kicad-embed://phoenix-contact-1715734-en.pdf"
-			(at 21.59 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 21.59 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee18b3ea-5186-4eb0-8945-db7ab8395945")
-		)
-		(pin "3"
-			(uuid "22a0ed79-5075-466e-82c6-31d412fd1f00")
-		)
-		(pin "2"
-			(uuid "cd08e340-cf8a-466e-81c1-449aba9382c2")
-		)
-		(instances
-			(project ""
-				(path "/20540832-f0e7-4431-b65d-173d703fbd53"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 91.44 21.59 90)
 		(unit 1)
@@ -5678,7 +5533,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7099d912-528d-48db-8ef3-fb9ea41061e5")
 		(property "Reference" "PS1"
 			(at 35.56 33.02 0)
@@ -6426,6 +6280,148 @@
 			(project ""
 				(path "/20540832-f0e7-4431-b65d-173d703fbd53"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1757255:1757255")
+		(at 29.21 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c04aedd-1ea2-45af-8c0f-eace2f18b552")
+		(property "Reference" "J1"
+			(at 18.796 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1757255"
+			(at 19.05 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1757255"
+			(at 12.7 -65.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/pcb-header-mstba-25-3-g-508-1757255?type=pdf"
+			(at 12.7 -165.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB header, nominal cross section: 2.5 mm?, color: green, nominal current: 12 A, rated voltage (III/2): 320 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 3, Number of rows: 1, Number of positions per row: 3, number of connections: 3, product range: MSTBA 2,5/..-G, pitch: 5.08 mm, mounting: Wave soldering, pin layout: Linear pinning, solder pin [P]: 3.5 mm, Stecksystem: CLASSIC COMBICON, Locking: without, type of packaging: packed in cardboard"
+			(at 29.21 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.72"
+			(at 12.7 -365.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 12.7 -465.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1757255"
+			(at 12.7 -565.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "651-1757255"
+			(at 12.7 -665.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1757255?qs=uD%2FdkN7XIa0ez8xszzicKg%3D%3D"
+			(at 12.7 -765.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "1757255"
+			(at 12.7 -865.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1757255/phoenix-contact?utm_currency=USD&region=nac"
+			(at 12.7 -965.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9a004c8-c17e-47a6-8cea-d02b534a789e")
+		)
+		(pin "3"
+			(uuid "c180da65-3f19-458a-8c0c-38e8adeaa22b")
+		)
+		(pin "2"
+			(uuid "5d1f004b-b643-4b60-802a-1a006e183868")
+		)
+		(instances
+			(project ""
+				(path "/20540832-f0e7-4431-b65d-173d703fbd53"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7475,78 +7471,6 @@
 			(project "universal-io-board"
 				(path "/20540832-f0e7-4431-b65d-173d703fbd53"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 171.45 78.74)
-		(size 29.21 24.13)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "814a5a66-b91f-48ab-b395-69c893ebe4c9")
-		(property "Sheetname" "DAC Outputs (4-20mA)"
-			(at 171.45 78.0284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "DAC_Outputs_4_20mA .kicad_sch"
-			(at 171.45 103.4546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "SPI_CLK" input
-			(at 171.45 81.28 180)
-			(uuid "b48d2176-2184-4846-8f7f-3793d1ebc5bf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI_MOSI" input
-			(at 171.45 91.44 180)
-			(uuid "9f7fbedb-eba3-49b3-b0d8-fbec95cb228c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DAC2_CS" output
-			(at 171.45 86.36 180)
-			(uuid "467ac9ba-56fa-4118-b7c5-d72e099b5653")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "universal-io-board"
-				(path "/20540832-f0e7-4431-b65d-173d703fbd53"
-					(page "5")
 				)
 			)
 		)
